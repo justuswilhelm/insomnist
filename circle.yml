@@ -1,0 +1,9 @@
+test:
+  override:
+    - echo "No Tests"
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: insomnist
